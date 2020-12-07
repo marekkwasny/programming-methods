@@ -1,0 +1,8 @@
+fun listsum(x : int list) : int =
+match x with
+| [] -> 0
+| x::xs -> listsum(xs) + x
+
+in
+
+listsum( [3, 2, 1, 21, 5] : int list )

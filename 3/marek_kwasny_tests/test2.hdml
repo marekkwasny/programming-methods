@@ -1,0 +1,10 @@
+def zero(A, B, C) =
+	let A, B, C = 0 in []
+
+
+def test2(A, B, C) = 
+	if A > 0 then zero(A, B, C)
+	else 
+		let A, B, C = 1 in ( [ ( [] ) ] )
+	
+	

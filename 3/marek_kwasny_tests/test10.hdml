@@ -1,0 +1,4 @@
+def main(X_1, Y1) =
+	let ((((X_1, Y1)))) = 1 [ # - ~ - # 0 ] in 
+	if X_1 & Y1 then [ X_1 ]
+	else [ Y1 ]

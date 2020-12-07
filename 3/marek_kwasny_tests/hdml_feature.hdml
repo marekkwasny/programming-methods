@@ -1,0 +1,4 @@
+def test3(X, Y) =
+	X = Y * Y
+	Y = 0 
+	

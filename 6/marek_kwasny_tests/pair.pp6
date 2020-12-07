@@ -1,0 +1,7 @@
+fun pair(x : int*bool) : int =
+if snd x then fst x
+else fst x mod 2
+
+in
+
+pair( (71, true) )

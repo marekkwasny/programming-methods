@@ -1,0 +1,5 @@
+fun funit(u : unit) : int = 1996
+
+in
+
+funit()

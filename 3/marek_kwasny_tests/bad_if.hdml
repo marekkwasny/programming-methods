@@ -1,0 +1,2 @@
+def main(X) = 
+	if X < 2 then X = 2

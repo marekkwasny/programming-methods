@@ -1,0 +1,13 @@
+fun pairmaker(x : int) : int*bool =
+if x mod 2 = 0 then (x, true)
+else (x, false)
+
+fun pairif(x : int*bool) : int =
+if snd x then 2
+else 1
+
+input x1
+
+in
+
+pairif( pairmaker(x1) )

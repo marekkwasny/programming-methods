@@ -1,0 +1,3 @@
+def test8(A, B, C, X, Y, Z, _, M) = 
+	~  M [ A .. if B | Y then C @ X else [] ]
+	

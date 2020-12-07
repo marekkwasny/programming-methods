@@ -1,0 +1,8 @@
+fun intlist(x : int list) : int =
+match x with
+| [] -> 0
+| x::xs -> intlist(xs) + 1
+
+in
+
+intlist( [1, 2, 3, 4, 5] : int list )

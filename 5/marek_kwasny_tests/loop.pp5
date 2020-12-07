@@ -1,0 +1,9 @@
+fun loop(x : int) : int = 
+if x > 1 then loop(x-1)
+else x
+
+input x1
+
+in
+
+loop(x1)
